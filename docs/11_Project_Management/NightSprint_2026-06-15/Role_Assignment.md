@@ -1,16 +1,18 @@
 # 역할 분담
 
-## 이영준 - PM / AI / Backend Lead
+## 이영준 - PM / 개발총괄 / AI·Backend Lead
 
 ### 오늘 할 일
-- 프로젝트 방향 확정
+- 프로젝트 방향 최종 확정
+- 전체 개발 구조 결정
 - Vision, Mission, Executive Summary 작성
 - MVP 기능 범위 확정
 - 시스템 아키텍처 설계
 - AI Pipeline 설계
 - RAG 구조 설계
 - Database 초안 설계
-- GitHub 구조 관리
+- Backend 개발 방향 설정
+- GitHub 구조 및 커밋 관리
 
 ### 산출물
 - docs/00_Project_Overview/Vision.md
@@ -21,13 +23,17 @@
 - docs/03_Technical_Design/AI_Pipeline.md
 - docs/03_Technical_Design/RAG.md
 - docs/03_Technical_Design/Database.md
+- src/backend/
+- src/ai/
 
 ---
 
-## 류종걸 - Frontend / Full Stack
+## 류종걸 - AI Assistant / Frontend / Full Stack
 
 ### 오늘 할 일
-- 웹 화면 구조 설계
+- AI Memory Assistant 사례 조사
+- RAG 구조 이해 및 실험 방향 정리
+- 프론트엔드 화면 구조 설계
 - React 프론트엔드 폴더 구조 설계
 - UI 화면 목록 작성
 - API 연동 구조 작성
@@ -48,6 +54,8 @@
 - docs/06_UI_UX/User_Flow.md
 - docs/06_UI_UX/Design_System.md
 - docs/06_UI_UX/drafts/Frontend_Structure.md
+- docs/13_Knowledge_Base/AI_Memory_Cases.md
+- experiments/rag/README.md
 - src/frontend/README.md
 
 ---
