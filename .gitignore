@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Logs
+logs/
+*.log
+
+# Secrets / Private
+private/
+private/**
+submission/private/
+
+# Sensitive Memory Data
+docs/12_Data/ConsentForms/
+docs/12_Data/VoiceSamples/
+docs/12_Data/FamilyData/
+docs/12_Data/PersonalData/
+
+# AI Models / Embeddings
+models/
+weights/
+checkpoints/
+*.faiss
+qdrant_storage/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+archive/backups/
