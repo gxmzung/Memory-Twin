@@ -1,31 +1,33 @@
-# First Real Code Review
+# First Real Industry Code Review
 
 ## StellaVision Coffee Chat & Technical Review
 
-**Date:** 2026-06-25
+**Date** : 2026-06-25
+**Company** : StellaVision
+**Type** : Coffee Chat + Technical Review + Career Mentoring
 
 ---
 
-# Why This Document Matters
+# Why I Wrote This
 
-Today was my first experience receiving a real code review and technical feedback from an industry engineer.
+This was my first experience receiving a real code review from an industry engineer.
 
-I originally expected a casual coffee chat, but it became a technical discussion, career mentoring session, and self-assessment.
-
-Regardless of the hiring result, this was one of the most valuable learning experiences since entering university.
+The goal of this document is **not to remember the interview**, but to remember **how I should grow**.
 
 ---
 
 # Before the Meeting
 
-### What I Prepared
+## What I Prepared
 
 * Resume
-* Portfolio (Vol.1)
-* Portfolio (Vol.2)
-* Portfolio (Vol.3)
-* GitHub repositories
+* Portfolio Vol.1
+* Portfolio Vol.2
+* Portfolio Vol.3
+* GitHub
 * Printed project documents
+* Company research
+* Question notes
 
 Representative repositories
 
@@ -41,39 +43,88 @@ Representative repositories
 Expected
 
 Coffee Chat
-→ Company Introduction
-→ Q&A
 
-Reality
+↓
+
+Company Introduction
+
+↓
+
+Simple Conversation
+
+Actual
 
 GitHub Review
-→ Project Discussion
-→ Code Review
-→ Technical Questions
-→ Career Analysis
-→ Industry Mentoring
 
-Duration
+↓
+
+Code Review
+
+↓
+
+Technical Questions
+
+↓
+
+Project Discussion
+
+↓
+
+Career Analysis
+
+↓
+
+Mentoring
+
+↓
+
+Industry Advice
+
+Time
 
 Approximately **1 hour 20 minutes**
 
 ---
 
-# Projects Discussed
+# Projects Reviewed
 
-* SAT-GCS
-* Ghost Ant Handover
-* SkyEdge VTOL
-* RescueMap OS
+## SAT-GCS
 
-Main questions
+Questions
 
-* Why did you build this?
-* Which parts did you implement?
-* Why did you choose this architecture?
-* Explain this code.
+* Why this architecture?
+* Why C++, Java, Python, React?
 * Explain the data flow.
-* Explain the simulation.
+
+---
+
+## Ghost Ant
+
+Questions
+
+* Why Ant Colony?
+* What is the reward function?
+* What is different from existing handover methods?
+
+---
+
+## SkyEdge
+
+Questions
+
+* Why PX4?
+* Why ROS2?
+* How much have you actually implemented?
+
+---
+
+## RescueMap
+
+Questions
+
+* Why GIS?
+* Why disaster response?
+* Why this system structure?
 
 ---
 
@@ -81,16 +132,13 @@ Main questions
 
 ## Presentation
 
-"Your presentation skills are very good."
+Presentation ability is very good.
 
 ---
 
 ## Execution
 
 Strong execution ability.
-
-You don't wait for opportunities.
-You create them.
 
 Examples
 
@@ -101,9 +149,15 @@ Examples
 
 ---
 
-## Domain Direction
+## Passion
 
-Your interests are very clear.
+"Your passion is impressive."
+
+---
+
+## Domain
+
+Clear direction.
 
 * Aerospace
 * Satellite
@@ -112,24 +166,17 @@ Your interests are very clear.
 
 ---
 
-## PM / Planning
+## Career Fit
 
-Strong tendency toward
+Suitable for
 
-* Project Management
+* PM
 * Planning
 * Technical Sales
-* Communication
 
 ---
 
-## Passion
-
-"Your passion is impressive."
-
----
-
-## Industry Perspective
+## Perspective
 
 "You understand the industry better than most people your age."
 
@@ -137,109 +184,103 @@ Strong tendency toward
 
 # Weaknesses
 
-## Python
+## Programming Fundamentals
 
-Basic language understanding needs improvement.
+Need stronger Python fundamentals.
 
 ---
 
 ## Code Understanding
 
-The reviewer quickly recognized AI-assisted code.
+AI-assisted code was immediately recognized.
 
-The important point was not AI usage itself.
+The important issue wasn't AI.
 
-The important point was whether I fully understood the code.
+The important issue was whether I fully understood the implementation.
 
 ---
 
 ## Technical Explanation
 
-I struggled to explain
+Need to explain
 
-* Why the architecture was designed that way.
-* How the modules communicate.
-* Why specific implementations were chosen.
+* Why
+* How
+* Data Flow
+* Design Decision
+
+instead of only explaining the idea.
 
 ---
 
-## Fundamental Knowledge
+## System Thinking
 
 Need stronger understanding of
 
-* Python
-* Data structures
-* Object-oriented programming
-* Simulation architecture
-* ROS2
-* PX4
+* Architecture
+* Simulation
+* Object-Oriented Design
+* Data Structures
 
 ---
 
 # Most Valuable Advice
 
-## Understand before writing.
+## Understand Before Writing
 
-Do not memorize code.
+Do not memorize.
 
-Understand why it works.
-
----
-
-## Learn the architecture.
-
-Understand the entire system first.
-
-Not just individual functions.
+Understand.
 
 ---
 
-## GitHub should explain the system.
+## Explain Every Design Decision
 
-README should answer
+Always be able to answer
 
 * Why?
 * How?
+* What problem?
+
+---
+
+## README Should Explain Engineering
+
+README should explain
+
+* Architecture
 * Data Flow
 * Module Design
-
-instead of simply introducing the project.
-
----
-
-## Projects should be explainable.
-
-A project is valuable only if I can explain
-
-* architecture
-* implementation
-* trade-offs
-* limitations
-
-without looking at the code.
+* Trade-offs
+* Future Work
 
 ---
 
-# Quotes I Want to Remember
+## GitHub
+
+Projects are valuable only if I can explain them.
+
+---
+
+# Quotes
 
 "Thank you for reaching out first."
 
 "I hope you can learn something today."
 
-"I don't have final hiring authority.
-The decision will go through a meeting."
+"I don't have final hiring authority."
 
-"Your passion is impressive."
+"The final decision goes through a meeting."
 
-"Don't get hurt by this feedback."
+"Don't get hurt by today's feedback."
 
 "Wouldn't you rather compete in society?"
 
 ---
 
-# What I Learned About Myself
+# What I Learned
 
-Strengths
+## Strengths
 
 * Execution
 * Presentation
@@ -249,16 +290,18 @@ Strengths
 * Technical Sales potential
 * Clear domain interest
 
-Weaknesses
+---
 
-* Programming fundamentals
+## Weaknesses
+
+* Python
 * Code explanation
 * Architecture explanation
 * Technical depth
 
 ---
 
-# Action Items
+# Immediate Actions
 
 ## GitHub
 
@@ -267,9 +310,9 @@ Every repository should answer
 * Why
 * Architecture
 * Data Flow
-* Module Design
+* Module
 * Implementation
-* Future Work
+* Limitations
 
 ---
 
@@ -277,31 +320,31 @@ Every repository should answer
 
 Priority
 
-1. Python fundamentals
-2. Data structures
-3. Object-oriented programming
-4. Simulation architecture
+1. Python Fundamentals
+2. Data Structures
+3. Object-Oriented Programming
+4. Simulation
 5. ROS2
 6. PX4
 
 ---
 
-## Goal
+# Long-term Goal
 
-I don't want to become someone who only builds projects.
+I don't want to become someone who simply builds projects.
 
-I want to become someone who understands, explains, and improves systems.
+I want to become an engineer who understands systems, explains design decisions, and can improve them.
 
 ---
 
-# Closing Reflection
+# Reflection
 
-This meeting changed how I think about software engineering.
+This meeting changed my perspective.
 
-Until today, I believed that building many projects was the most important thing.
+Until today, I thought building many projects was the goal.
 
-Now I understand that the next stage is different.
+Today I realized the next stage is different.
 
-The next stage is being able to explain every design decision, every module, and every line of code with confidence.
+The next stage is understanding every design decision and confidently explaining every line of code.
 
 This document marks the beginning of that journey.
